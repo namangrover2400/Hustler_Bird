@@ -80,6 +80,14 @@ public:
 		SetConsoleCtrlHandler((PHANDLER_ROUTINE)CloseHandler, TRUE);
 		return 1;
 	}
+	
+//		struct playSound
+// 	{
+// 		int nAudioSampleID = 0;
+// 		long nSamplePosition = 0;
+// 		bool bFinished = false;
+// 		bool bLoop = false;
+// 	};
 
 	virtual void Draw(int x, int y, short c = 0x2588, short col = 0x000F)
 	{
