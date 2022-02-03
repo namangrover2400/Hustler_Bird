@@ -1,3 +1,29 @@
+#include <windows.h>
+
+#include <iostream>
+#include <chrono>
+#include <vector>
+#include <list>
+#include <thread>
+#include <atomic>
+#include <condition_variable>
+
+enum COLOUR
+{
+	FG_BLACK		= 0x0000,
+	FG_DARK_BLUE    = 0x0001,	
+	FG_DARK_GREEN   = 0x0002,
+	FG_DARK_CYAN    = 0x0003,
+	FG_DARK_RED     = 0x0004,
+	FG_DARK_MAGENTA = 0x0005,
+	FG_DARK_YELLOW  = 0x0006,
+	FG_GREY			= 0x0007, 
+	FG_DARK_GREY    = 0x0008,
+	FG_BLUE			= 0x0009,
+	FG_GREEN		= 0x000A,
+	FG_CYAN			= 0x000B,
+};
+
 class myGameDriver
 {
 public:
